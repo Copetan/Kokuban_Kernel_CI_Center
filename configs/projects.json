@@ -209,7 +209,14 @@
       "clang/host/linux-x86/clang-r487747c/bin"
     ],
     "anykernel_config": "mt6989",
-    "zip_name_prefix": "TabS10_kernel"
+    "zip_name_prefix": "TabS10_kernel",
+    "susfs": {
+      "repo": "https://gitlab.com/simonpunk/susfs4ksu.git",
+      "branch": "gki-android14-6.1",
+      "patch_path": "kernel_patches/50_add_susfs_in_gki-android14-6.1.patch",
+      "fs_patch_dir": "kernel_patches/fs",
+      "include_linux_patch_dir": "kernel_patches/include/linux"
+    }
   },
   "z6_sm8650": {
     "repo": "YuzakiKokuban/android_kernel_samsung_sm8650_Z6",
